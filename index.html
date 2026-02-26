@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jens Jung - Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Jens Jung, an international student from Germany passionate about Machine Learning and Software Engineering.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none;">
+            <h1>Jens Jung</h1>
+        </a>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h2>Hi, I'm Jens.</h2>
+                <p>
+                    Creative and curious mind, passionate about leading teams, solving hard problems, and driving
+                    impact.
+                </p>
+                <p style="margin-bottom: 2rem;">
+                    Aspiring to roles that sit between strategy and execution and translating vision and business goals
+                    into models, metrics, and real workflows. I combine technical literacy with structured problem
+                    solving to decide when to trust a model, when to challenge it, and how to embed tools into decisions
+                    people actually make.
+                </p>
+                <div class="links">
+                    <a href="https://github.com/J90J" target="_blank" class="btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                        </svg>
+                        GitHub
+                    </a>
+                    <a href="resume.pdf" target="_blank" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                        Resume
+                    </a>
+                    <a href="https://share.streamlit.io/" target="_blank" class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                        Streamlit Apps
+                    </a>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <img src="profile.jpg" alt="Jens Jung">
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <a href="https://github.com/J90J/EE-project-multi-agent-chatbot-persistent-history-and-moderation-"
+                    target="_blank" class="project-card">
+                    <h3>Multi-Agent Chatbot System</h3>
+                    <p>
+                        A complex conversational AI project featuring persistent chat history and community moderation
+                        capabilities built in Python. This multi-agent architecture was designed to securely and
+                        effectively handle varied user intents while self-moderating.
+                    </p>
+                    <span class="project-tech">Python</span>
+                </a>
+
+                <a href="https://github.com/J90J/Palantir-stock-prediction" target="_blank" class="project-card">
+                    <h3>Stock Prediction Application</h3>
+                    <p>
+                        An end-to-end analytical pipeline predicting stock trends. It leverages machine learning to
+                        parse structured financial data and generate actionable insights for algorithmic trading
+                        scenarios.
+                    </p>
+                    <span class="project-tech">Python</span>
+                </a>
+
+                <a href="https://github.com/J90J/ML-chatbot-" target="_blank" class="project-card">
+                    <h3>Machine Learning Chatbot</h3>
+                    <p>
+                        A Jupyter Notebook-driven chatbot experiment that dives deep into applied machine learning
+                        techniques. Built to test different approaches to natural language question answering and
+                        embedding representations.
+                    </p>
+                    <span class="project-tech">Jupyter Notebook</span>
+                </a>
+
+                <a href="https://github.com/J90J/embedding-benchmarking" target="_blank" class="project-card">
+                    <h3>Embedding Benchmarking</h3>
+                    <p>
+                        A robust benchmarking suite evaluating different text embedding models. Compares the
+                        performance, latency, and memory utilization of various open-source models tailored for
+                        retrieval-augmented generation (RAG).
+                    </p>
+                    <span class="project-tech">Jupyter Notebook</span>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jens Jung. Built with HTML & CSS.</p>
+    </footer>
+</body>
+
+</html>
