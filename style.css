@@ -102,7 +102,7 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: top;
-  transform: scale(1.2) translateY(12px);
+  transform: scale(1.15) translateY(4px);
 }
 
 .intro h2 {
@@ -121,20 +121,21 @@ main {
 
 .links {
   display: flex;
-  gap: 1rem;
+  gap: 12px;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 .links a {
-  width: 48px;
-  height: 48px;
+  width: 54px;
+  height: 54px;
   padding: 0;
   border-radius: 50%;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -151,8 +152,8 @@ main {
 .btn-primary:hover {
   background-color: var(--accent-hover);
   border-color: var(--accent-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(140, 82, 255, 0.3);
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(140, 82, 255, 0.6);
 }
 
 .btn-secondary {
@@ -162,9 +163,11 @@ main {
 }
 
 .btn-secondary:hover {
+  background-color: rgba(140, 82, 255, 0.1);
   border-color: var(--accent-color);
-  color: var(--accent-color);
-  transform: translateY(-2px);
+  color: #fff;
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 10px 25px rgba(140, 82, 255, 0.4);
 }
 
 .section-title {
