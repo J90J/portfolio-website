@@ -1,13 +1,13 @@
 :root {
-  --bg-color: #0d0914;
-  /* Deep black with a hint of purple */
-  --text-primary: #e2d9f3;
-  --text-secondary: #a395c3;
-  --accent-color: #8c52ff;
-  /* Vibrant dark purple */
-  --accent-hover: #a67cff;
-  --card-bg: #161022;
-  --border-color: #2d2046;
+  --bg-color: #040814;
+  /* Deep black with a hint of blue */
+  --text-primary: #dbe4ff;
+  --text-secondary: #8c9eb5;
+  --accent-color: #0055ff;
+  /* Vibrant electric blue */
+  --accent-hover: #3377ff;
+  --card-bg: #091224;
+  --border-color: #172645;
 }
 
 * {
@@ -19,7 +19,7 @@
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background-color: var(--bg-color);
-  background-image: linear-gradient(rgba(13, 9, 20, 0.85), rgba(13, 9, 20, 0.95)), url('wallpaper.jpg');
+  background-image: linear-gradient(rgba(4, 8, 20, 0.85), rgba(4, 8, 20, 0.95)), url('wallpaper.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -95,7 +95,7 @@ main {
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid var(--border-color);
-  box-shadow: 0 10px 30px rgba(140, 82, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 85, 255, 0.2);
 }
 
 .profile-pic img {
@@ -145,14 +145,14 @@ main {
   background-color: var(--accent-color);
   color: #fff;
   border: 1px solid var(--accent-color);
-  box-shadow: 0 0 15px rgba(140, 82, 255, 0.6), 0 0 25px rgba(140, 82, 255, 0.3);
+  box-shadow: 0 0 15px rgba(0, 85, 255, 0.6), 0 0 25px rgba(0, 85, 255, 0.3);
 }
 
 .btn-primary:hover {
   background-color: var(--accent-hover);
   border-color: var(--accent-hover);
   transform: translateY(-4px) scale(1.02);
-  box-shadow: 0 0 25px rgba(140, 82, 255, 0.8), 0 0 40px rgba(140, 82, 255, 0.5);
+  box-shadow: 0 0 25px rgba(0, 85, 255, 0.8), 0 0 40px rgba(0, 85, 255, 0.5);
 }
 
 .btn-secondary {
@@ -239,7 +239,7 @@ main {
   font-size: 0.8rem;
   color: var(--accent-color);
   font-family: monospace;
-  background: rgba(140, 82, 255, 0.1);
+  background: rgba(0, 85, 255, 0.1);
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   display: inline-block;
